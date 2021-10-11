@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/mesom/Desktop/testmingw/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe    -g   -o CMakeFiles\\LibraryApp.dir\\LibraryApp.cpp.obj -c C:\\Users\\mesom\\Desktop\\testmingw\\LibraryApp.cpp",
+  "file": "C:/Users/mesom/Desktop/testmingw/LibraryApp.cpp"
+},
+{
+  "directory": "C:/Users/mesom/Desktop/testmingw/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe    -g   -o CMakeFiles\\LibraryApp.dir\\Library.cpp.obj -c C:\\Users\\mesom\\Desktop\\testmingw\\Library.cpp",
+  "file": "C:/Users/mesom/Desktop/testmingw/Library.cpp"
+},
+{
+  "directory": "C:/Users/mesom/Desktop/testmingw/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe    -g   -o CMakeFiles\\LibraryApp.dir\\User.cpp.obj -c C:\\Users\\mesom\\Desktop\\testmingw\\User.cpp",
+  "file": "C:/Users/mesom/Desktop/testmingw/User.cpp"
+},
+{
+  "directory": "C:/Users/mesom/Desktop/testmingw/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe    -g   -o CMakeFiles\\LibraryApp.dir\\Person.cpp.obj -c C:\\Users\\mesom\\Desktop\\testmingw\\Person.cpp",
+  "file": "C:/Users/mesom/Desktop/testmingw/Person.cpp"
+},
+{
+  "directory": "C:/Users/mesom/Desktop/testmingw/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe    -g   -o CMakeFiles\\LibraryApp.dir\\Book.cpp.obj -c C:\\Users\\mesom\\Desktop\\testmingw\\Book.cpp",
+  "file": "C:/Users/mesom/Desktop/testmingw/Book.cpp"
+}
+]

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=ZCOOL+KuaiLe&display=swap');
+
+.html {
+  text-align: justify;
+}
+.navigation ul {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.navigation li {
+  color: gray;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+.navigation li.home {
+  color: slategrey;
+  font-weight: 700;
+}
+
+#bannner {
+  background-size: cover;
+  width: 500vw;
+  height: 1200vh;
+}
+
+h1 {
+  border: 12px solid rgb(255, 255, 255);
+  position: relative;
+  top: 20vh;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+h2 {
+  font-size: 28px;
+  line-height: 48px;
+  margin: 30px 20px;
+  padding: 20px 30px;
+  color: rgb(29, 25, 25);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
