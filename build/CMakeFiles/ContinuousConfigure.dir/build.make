@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = C:\msys64\mingw64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mesom\CARRERA_2021\5_carrera
+CMAKE_SOURCE_DIR = X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mesom\CARRERA_2021\5_carrera\build
+CMAKE_BINARY_DIR = X:\CARRERA\5ºCARRERA\build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -66,7 +66,7 @@ include CMakeFiles/ContinuousConfigure.dir/compiler_depend.make
 include CMakeFiles/ContinuousConfigure.dir/progress.make
 
 CMakeFiles/ContinuousConfigure:
-	"C:\Program Files\CMake\bin\ctest.exe" -D ContinuousConfigure
+	C:\msys64\mingw64\bin\ctest.exe -D ContinuousConfigure
 
 ContinuousConfigure: CMakeFiles/ContinuousConfigure
 ContinuousConfigure: CMakeFiles/ContinuousConfigure.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/ContinuousConfigure.dir/clean:
 .PHONY : CMakeFiles/ContinuousConfigure.dir/clean
 
 CMakeFiles/ContinuousConfigure.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mesom\CARRERA_2021\5_carrera C:\Users\mesom\CARRERA_2021\5_carrera C:\Users\mesom\CARRERA_2021\5_carrera\build C:\Users\mesom\CARRERA_2021\5_carrera\build C:\Users\mesom\CARRERA_2021\5_carrera\build\CMakeFiles\ContinuousConfigure.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias X:\CARRERA\5ºCARRERA\build X:\CARRERA\5ºCARRERA\build X:\CARRERA\5ºCARRERA\build\CMakeFiles\ContinuousConfigure.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousConfigure.dir/depend
 

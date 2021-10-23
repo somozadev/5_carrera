@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/Users/mesom/CARRERA_2021/5_carrera/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\Proyecto_Test.dir\\main.cpp.obj -c C:\\Users\\mesom\\CARRERA_2021\\5_carrera\\main.cpp",
-  "file": "C:/Users/mesom/CARRERA_2021/5_carrera/main.cpp"
+  "directory": "X:/CARRERA/5ºCARRERA/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DFMT_LOCALE  -g -o CMakeFiles\\PruebaBandas.dir\\main.cpp.obj -c X:\\CARRERA\\5ºCARRERA\\PEL\\Ej_Librerias\\main.cpp",
+  "file": "X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias/main.cpp"
 }
 ]

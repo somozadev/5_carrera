@@ -1,0 +1,93 @@
+#include <iostream>
+using namespace std;
+
+class animal
+{
+public:
+    animal();
+    virtual void respirar();
+    virtual void digerir();
+    virtual void reproducir();
+    virtual void mover();
+    virtual void mirar();
+
+protected:
+    std::string habitat;
+    std::string nombre;
+    int edad;
+    int num_patas;
+    float tamano;
+};
+class insecto : public animal
+{
+public:
+    insecto();
+
+private:
+    std::string tipo;
+    int num_ojos;
+    int num_alas;
+    int num_antenas;
+};
+class mamifero : public animal
+{
+public:
+    mamifero();
+
+protected:
+    int num_mamas;
+    std::string tipo;
+};
+class pajaro : public animal
+{
+public:
+    pajaro();
+    void volar();
+    void reproducir() override;
+
+private:
+    int num_alas;
+    int cantidad_plumas;
+    float long_pico;
+    int num_huevos;
+};
+class persona : public mamifero
+{
+public:
+    persona();
+    void caminar();
+    void correr();
+    void cocinar();
+    void craftear();
+    void hablar();
+
+protected:
+    std::string idioma;
+    std::string genero;
+    std::string tonalidad; 
+    bool matrimonio;
+    float db_voz;
+    float sueldo_neto;
+    float gastos;
+    bool es_adicto;
+};
+class hombre : public persona
+{
+public:
+    hombre();
+    void fecundar();
+
+private:
+    bool bigote;
+    bool barba;
+};
+class mujer : public persona
+{
+public:
+    mujer();
+    void parir();
+    void amamantar();
+private:
+    float ml_amamantados;
+
+};
