@@ -1,0 +1,25 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:  auto;
+    
+    margin: 0 auto;
+}
+
+.item-grid{
+    display: flex;
+    padding: 40px;
+    margin:10px;
+    background-color: gray;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;  
+}
+
+.titulo{
+    padding: 70px;
+    color: white;
+    background-color: blue;
+}

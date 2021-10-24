@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/mesom/CARRERA_2021/5_carrera/main.cpp" "CMakeFiles/minmax.dir/main.cpp.obj" "gcc" "CMakeFiles/minmax.dir/main.cpp.obj.d"
+  "X:/CARRERA/5ºCARRERA/main.cpp" "CMakeFiles/minmax.dir/main.cpp.obj" "gcc" "CMakeFiles/minmax.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
