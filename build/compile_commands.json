@@ -1,7 +1,7 @@
 [
 {
   "directory": "X:/CARRERA/5ºCARRERA/build",
-  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DFMT_LOCALE  -g -o CMakeFiles\\PruebaBandas.dir\\main.cpp.obj -c X:\\CARRERA\\5ºCARRERA\\PEL\\Ej_Librerias\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\PruebaBandas.dir\\main.cpp.obj -c X:\\CARRERA\\5ºCARRERA\\PEL\\Ej_Librerias\\main.cpp",
   "file": "X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias/main.cpp"
 }
 ]

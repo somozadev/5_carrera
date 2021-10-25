@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias
-BuildDirectory: X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias/build
+SourceDirectory: X:/CARRERA/5CARRERA
+BuildDirectory: X:/CARRERA/5CARRERA/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/msys64/mingw64/bin/cmake.exe" "X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias"
+ConfigureCommand: "C:/msys64/mingw64/bin/cmake.exe" "X:/CARRERA/5CARRERA"
 MakeCommand: C:/msys64/mingw64/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-g++.exe
+Compiler: C:/msys64/mingw64/bin/g++.exe
 CompilerVersion: 10.3.0
 
 # Dynamic analysis (MemCheck)

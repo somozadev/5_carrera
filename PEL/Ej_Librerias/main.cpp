@@ -44,4 +44,6 @@ auto main() -> int
     {
         fmt::print("Sorry, '{}' is not on the list", band_to_search);
     }
+    string a = "";
+    std::cin >> a;
 }

@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias
+CMAKE_SOURCE_DIR = X:\CARRERA\5CARRERA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias\build
+CMAKE_BINARY_DIR = X:\CARRERA\5CARRERA\build
 
 # Utility rule file for NightlyStart.
 
@@ -81,6 +81,6 @@ CMakeFiles/NightlyStart.dir/clean:
 .PHONY : CMakeFiles/NightlyStart.dir/clean
 
 CMakeFiles/NightlyStart.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias\build X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias\build X:\CARRERA\5ºCARRERA\PEL\Ej_Librerias\build\CMakeFiles\NightlyStart.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\CARRERA\5CARRERA X:\CARRERA\5CARRERA X:\CARRERA\5CARRERA\build X:\CARRERA\5CARRERA\build X:\CARRERA\5CARRERA\build\CMakeFiles\NightlyStart.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyStart.dir/depend
 

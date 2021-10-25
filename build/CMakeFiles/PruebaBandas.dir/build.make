@@ -91,7 +91,6 @@ PruebaBandas_EXTERNAL_OBJECTS =
 
 PruebaBandas.exe: CMakeFiles/PruebaBandas.dir/main.cpp.obj
 PruebaBandas.exe: CMakeFiles/PruebaBandas.dir/build.make
-PruebaBandas.exe: C:/msys64/mingw64/lib/libfmt.a
 PruebaBandas.exe: CMakeFiles/PruebaBandas.dir/linklibs.rsp
 PruebaBandas.exe: CMakeFiles/PruebaBandas.dir/objects1.rsp
 PruebaBandas.exe: CMakeFiles/PruebaBandas.dir/link.txt
