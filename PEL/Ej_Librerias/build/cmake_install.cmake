@@ -1,8 +1,8 @@
-# Install script for directory: X:/CARRERA/5CARRERA
+# Install script for directory: X:/CARRERA/5_CARRERA/PEL/Ej_Librerias
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/a")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ejecutable")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "X:/CARRERA/5CARRERA/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "X:/CARRERA/5_CARRERA/PEL/Ej_Librerias/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

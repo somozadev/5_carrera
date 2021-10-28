@@ -156,16 +156,16 @@ CMAKE_OBJCOPY:FILEPATH=C:/msys64/mingw64/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=C:/msys64/mingw64/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_DESCRIPTION:STATIC=
+CMAKE_PROJECT_DESCRIPTION:STATIC=Proyecto sencillo de C++ con un solo target
 
 //Value Computed by CMake
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=PruebaBandas
+CMAKE_PROJECT_NAME:STATIC=ejecutable
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.0
+CMAKE_PROJECT_VERSION:STATIC=0.1.1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
@@ -174,7 +174,7 @@ CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
 CMAKE_PROJECT_VERSION_MINOR:STATIC=1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -320,8 +320,20 @@ PruebaBandas_SOURCE_DIR:STATIC=X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias
 //Name of the computer/site where compile is being run
 SITE:STRING=DESKTOP-E0LNIDD
 
+//Value Computed by CMake
+ejecutable_BINARY_DIR:STATIC=X:/CARRERA/5ºCARRERA/build
+
+//Value Computed by CMake
+ejecutable_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+ejecutable_SOURCE_DIR:STATIC=X:/CARRERA/5ºCARRERA/PEL/Ej_Librerias
+
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=C:/msys64/mingw64/lib/cmake/fmt
+
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=C:/msys64/mingw64/lib/cmake/nlohmann_json
 
 //The directory containing a CMake configuration file for range-v3.
 range-v3_DIR:PATH=C:/msys64/mingw64/lib/cmake/range-v3
@@ -353,8 +365,6 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=C:/msys64/mingw64/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/msys64/mingw64/bin/cpack.exe
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/msys64/mingw64/bin/ctest.exe
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -521,6 +531,8 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/msys64/mingw64/include][c ][v1.77.0()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[C:/msys64/mingw64/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.10.3()]
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND
