@@ -1,0 +1,5 @@
+X:/CARRERA/5_CARRERA/PEL/Ej2_Mochila/build/CMakeFiles/edit_cache.dir
+X:/CARRERA/5_CARRERA/PEL/Ej2_Mochila/build/CMakeFiles/rebuild_cache.dir
+X:/CARRERA/5_CARRERA/PEL/Ej2_Mochila/build/CMakeFiles/package.dir
+X:/CARRERA/5_CARRERA/PEL/Ej2_Mochila/build/CMakeFiles/package_source.dir
+X:/CARRERA/5_CARRERA/PEL/Ej2_Mochila/build/CMakeFiles/ejecutable.dir
