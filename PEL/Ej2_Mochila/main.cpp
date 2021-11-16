@@ -1,5 +1,7 @@
 #include <iostream>
-
+using std::cin;
+using std::cout;
+using std::endl;
 /* 
 *Ejercicio 2: Implementar en C++ un programa sencillo que simule una mochila o almacén de objetos. 
 *El programa debe permitir al usuario que se “almacene” cualquier tipo de objeto que quiera el usuario (solo validos tipos de datos estándar de C++).
@@ -20,20 +22,48 @@
 *long double : 16 bytes
 * puntero : 8 bytes
 */
+
+template <class T>
 class BagClass
 {
 public:
-    BagClass();
+    BagClass(int &selection)
+    {
+        this = SelectType(selection);
+    }
+
 private:
-    char m_char;
-    short m_short;
-    int m_int;
-    long int m_long_int;
-    float m_float;
-    double m_double;
-    long double m_long_double;
+    T m_data;
 };
+
+class Menu
+{
+private:
+    int selection;
+
+public:
+    Menu()
+    {
+        PrintMenu();
+    };
+    void PrintMenu()
+    {
+        cout << "Selecciona un tipo a guardar [1-8]: " << endl;
+        cout << "1. short" << endl;
+        cout << "2. char" << endl;
+        cout << "3. int" << endl;
+        cout << "4. long int" << endl;
+        cout << "5. float" << endl;
+        cout << "6. double" << endl;
+        cout << "7. puntero" << endl;
+        cout << "8. long double" << endl;
+        cin >> selection;
+    };
+
+};
+
 int main(int, char **)
 {
-    std::cout << sizeof(BagClass);
+    Menu menu = Menu();
+    std::cout << sizeof(BagClass<int>);
 }

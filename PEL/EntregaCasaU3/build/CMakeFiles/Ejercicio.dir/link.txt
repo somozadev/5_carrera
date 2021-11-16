@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\Ejercicio.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Ejercicio.dir/objects.a @CMakeFiles\Ejercicio.dir\objects1.rsp
+C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\Ejercicio.dir/objects.a -Wl,--no-whole-archive -o Ejercicio.exe -Wl,--out-implib,libEjercicio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Ejercicio.dir\linklibs.rsp
