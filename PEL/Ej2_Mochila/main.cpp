@@ -27,27 +27,29 @@ template <class T>
 class BagClass
 {
 public:
-    BagClass(int &selection)
+    BagClass()
     {
-        this = SelectType(selection);
-    }
-
+        size = sizeof(m_data);
+    };
+    void PrintSize()
+    {
+        cout << "Size of: " << size << endl;
+    };
 private:
     T m_data;
+    int size;
 };
 
 class Menu
 {
-private:
-    int selection;
 
 public:
     Menu()
     {
-        PrintMenu();
     };
-    void PrintMenu()
+    int PrintMenu()
     {
+        int selection = 1;
         cout << "Selecciona un tipo a guardar [1-8]: " << endl;
         cout << "1. short" << endl;
         cout << "2. char" << endl;
@@ -58,6 +60,7 @@ public:
         cout << "7. puntero" << endl;
         cout << "8. long double" << endl;
         cin >> selection;
+        return selection;
     };
 
 };
@@ -65,5 +68,17 @@ public:
 int main(int, char **)
 {
     Menu menu = Menu();
+    vector<BagClass<T>> bag ;
+    int chosen = menu.PrintMenu();
+    switch(chosen)
+    {
+        case 1: 
+        bag.push_back(BagClass<short>());
+        break;
+    }
+    for(BagClass<T> b : bag)
+    {
+        b.PrintSize();
+    }
     std::cout << sizeof(BagClass<int>);
 }
