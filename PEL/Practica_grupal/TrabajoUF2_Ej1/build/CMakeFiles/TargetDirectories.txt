@@ -1,0 +1,3 @@
+C:/Users/aleja/Drive/02-UNI/2-Curso/P. ESTRUCTURAS LINEALES/C++_Proy/TrabajoUF2_Ej1/build/CMakeFiles/rebuild_cache.dir
+C:/Users/aleja/Drive/02-UNI/2-Curso/P. ESTRUCTURAS LINEALES/C++_Proy/TrabajoUF2_Ej1/build/CMakeFiles/edit_cache.dir
+C:/Users/aleja/Drive/02-UNI/2-Curso/P. ESTRUCTURAS LINEALES/C++_Proy/TrabajoUF2_Ej1/build/CMakeFiles/ejecutable.dir

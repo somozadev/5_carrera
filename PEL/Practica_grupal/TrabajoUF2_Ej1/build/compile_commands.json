@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/aleja/Drive/02-UNI/2-Curso/P. ESTRUCTURAS LINEALES/C++_Proy/TrabajoUF2_Ej1/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DFMT_LOCALE -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1  -g -Wall -Wextra -pedantic -Werror -std=c++17 -o CMakeFiles\\ejecutable.dir\\main.cpp.obj -c \"C:\\Users\\aleja\\Drive\\02-UNI\\2-Curso\\P. ESTRUCTURAS LINEALES\\C++_Proy\\TrabajoUF2_Ej1\\main.cpp\"",
+  "file": "C:/Users/aleja/Drive/02-UNI/2-Curso/P. ESTRUCTURAS LINEALES/C++_Proy/TrabajoUF2_Ej1/main.cpp"
+}
+]
