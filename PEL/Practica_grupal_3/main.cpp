@@ -18,11 +18,6 @@ private:
 
 public:
     string getGenre() { return this->genre; }
-    inline album(string _name)
-    {
-        name = _name;
-        genre = group = "";
-    }
     album(string _name, string _genre, string _group)
     {
         name = _name;
