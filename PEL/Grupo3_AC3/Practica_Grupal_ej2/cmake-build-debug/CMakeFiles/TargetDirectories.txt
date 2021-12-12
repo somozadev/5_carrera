@@ -1,0 +1,3 @@
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/CMakeFiles/ejecutable.dir
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
