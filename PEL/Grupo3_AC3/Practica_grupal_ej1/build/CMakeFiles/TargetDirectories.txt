@@ -1,0 +1,5 @@
+X:/CARRERA/5_CARRERA/PEL/Practica_grupal_3/build/CMakeFiles/edit_cache.dir
+X:/CARRERA/5_CARRERA/PEL/Practica_grupal_3/build/CMakeFiles/rebuild_cache.dir
+X:/CARRERA/5_CARRERA/PEL/Practica_grupal_3/build/CMakeFiles/package.dir
+X:/CARRERA/5_CARRERA/PEL/Practica_grupal_3/build/CMakeFiles/package_source.dir
+X:/CARRERA/5_CARRERA/PEL/Practica_grupal_3/build/CMakeFiles/ejecutable.dir
