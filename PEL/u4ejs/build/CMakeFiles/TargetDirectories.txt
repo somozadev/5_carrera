@@ -1,0 +1,5 @@
+X:/CARRERA/5_CARRERA/PEL/u4ejs/build/CMakeFiles/edit_cache.dir
+X:/CARRERA/5_CARRERA/PEL/u4ejs/build/CMakeFiles/rebuild_cache.dir
+X:/CARRERA/5_CARRERA/PEL/u4ejs/build/CMakeFiles/package.dir
+X:/CARRERA/5_CARRERA/PEL/u4ejs/build/CMakeFiles/package_source.dir
+X:/CARRERA/5_CARRERA/PEL/u4ejs/build/CMakeFiles/ejecutable.dir
