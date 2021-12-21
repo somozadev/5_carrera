@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ejecutable"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\msys64\;CMake Files\msys64\mingw64\;CMake Files\msys64\mingw64\lib\;CMake Files\msys64\mingw64\lib\cmake\;CMake Files\msys64\mingw64\lib\cmake\fmt\;CMake Files\msys64\mingw64\lib\cmake\range-v3\;CMake Files\msys64\mingw64\lib\cmake\nlohmann_json\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ejecutable">
+				<Option output="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/debug/ejecutable.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="C:/msys64/mingw64/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejecutable"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ejecutable/fast">
+				<Option output="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/debug/ejecutable.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="C:/msys64/mingw64/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejecutable/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/main.cpp">
+			<Option target="ejecutable"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/range-v3/range-v3-config-version.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/range-v3/range-v3-config.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/range-v3/range-v3-targets.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/msys64/mingw64/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\msys64\mingw64\lib\cmake\nlohmann_json\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

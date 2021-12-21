@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Workspaces\Workspace _C++\G_PracticaPEL3\Proyecto2"
+-- CMake Generator: MinGW Makefiles
+-- Target compile features: cxx_std_20
+-- Target compile options: -Wall;-Wextra;-pedantic;-Werror
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/cmake-build-debug

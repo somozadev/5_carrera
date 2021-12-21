@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/main.cpp
+iostream
+-
+vectorPEL.h
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/vectorPEL.h
+pelicula.cpp
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/pelicula.cpp
+cstdlib
+-
+
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/pelicula.cpp
+iostream
+-
+cstdlib
+-
+
+D:/Workspaces/Workspace _C++/G_PracticaPEL3/Proyecto2/vectorPEL.h
+
