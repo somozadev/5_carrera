@@ -13,7 +13,7 @@ from pyspark.sql.types import  DateType, DoubleType,IntegerType,StringType
 #    print(file1,file2)
 
 #init spark session with utf8
-spark = SparkSession.builder.config("spark.driver.memory","20g").appName("Recomendador").getOrCreate()
+spark = SparkSession.builder.appName("Recomendador").getOrCreate()
 #open csvs
 animes_dataset = spark.read.option("header","true").option("encoding","utf-8").csv('anime.csv')
 ratings_dataset = spark.read.option("header","true").option("encoding","utf-8").csv('rating_complete.csv')
