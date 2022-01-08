@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\PilasColasListasEnlazadas.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\PilasColasListasEnlazadas.dir/objects.a @CMakeFiles\PilasColasListasEnlazadas.dir\objects1.rsp
+C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\PilasColasListasEnlazadas.dir/objects.a -Wl,--no-whole-archive -o PilasColasListasEnlazadas.exe -Wl,--out-implib,libPilasColasListasEnlazadas.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PilasColasListasEnlazadas.dir\linklibs.rsp
