@@ -1,0 +1,7 @@
+visualizacion geografica de todos los estadios 
+jugador con mejores estadisticas en cada estadio (mayor num Goles, pases, asistencias... comparada con su valor de mercado (points.csv))
+estadisticas de jugador X en estadio Y 
+comparativa de estadisticas entre jugador X y jugador Y de los equipos X e Y 
+Equipo con mejores jugadores y su ranking de mejor performance en cada estadio
+$ total en jugadores dividido por ligas (y clubs quizas)
+jugador con mas tarjetas amarillas/rojas en menos/mas minutos jugados
