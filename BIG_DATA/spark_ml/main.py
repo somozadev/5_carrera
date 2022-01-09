@@ -15,11 +15,17 @@ from pyspark.sql.functions import col,explode
 #    print(file1,file2)
 #endregion
 
+<<<<<<< HEAD
+#init spark session with utf8
+spark = SparkSession.builder.appName("Recomendador").getOrCreate()
+#open csvs
+=======
 #region init spark session with utf8
 spark = SparkSession.builder.config("spark.driver.memory","20g").appName("Recomendador").getOrCreate()
 #endregion
 
 #region open csvs
+>>>>>>> 06bb8de99c90eca0e3223521ce079812989ad410
 animes_dataset = spark.read.option("header","true").option("encoding","utf-8").csv('anime.csv')
 ratings_dataset = spark.read.option("header","true").option("encoding","utf-8").csv('rating_complete.csv')
 #endregion
