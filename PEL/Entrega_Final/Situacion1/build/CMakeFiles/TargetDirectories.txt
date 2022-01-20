@@ -1,0 +1,3 @@
+X:/CARRERA/5_CARRERA/PEL/Entrega_Final/Situacion1/build/CMakeFiles/rebuild_cache.dir
+X:/CARRERA/5_CARRERA/PEL/Entrega_Final/Situacion1/build/CMakeFiles/edit_cache.dir
+X:/CARRERA/5_CARRERA/PEL/Entrega_Final/Situacion1/build/CMakeFiles/ejecutable.dir
