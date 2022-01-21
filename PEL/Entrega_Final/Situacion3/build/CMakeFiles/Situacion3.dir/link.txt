@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\Situacion3.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Situacion3.dir/objects.a @CMakeFiles\Situacion3.dir\objects1.rsp
+C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\Situacion3.dir/objects.a -Wl,--no-whole-archive -o Situacion3.exe -Wl,--out-implib,libSituacion3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Situacion3.dir\linklibs.rsp

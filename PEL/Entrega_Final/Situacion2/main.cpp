@@ -32,7 +32,7 @@ class CasaRuso
 {
 
 private:
-    vector<InfoSegurata> seguratas;
+    vector<InfoSegurata *> seguratas;
 
 public:
     void AddSeguratas()
@@ -50,23 +50,24 @@ public:
             cin >> b;
             cout << endl;
             InfoSegurata *is = new InfoSegurata(a, b);
-            AddSegurata(*is);
+            AddSegurata(is);
             delete is;
             cout << "Quiere anadir mas (0-1)?" << endl;
             cin >> fill;
         }
         SortSeguratas();
     }
-    void AddSegurata(InfoSegurata segurata) { seguratas.push_back(segurata); }
+    void AddSegurata(InfoSegurata* segurata) { seguratas.push_back(segurata); }
 
-    void SortSeguratas()
+void SortSeguratas()
     {
         for (int i = 0; i < seguratas.size(); i++)
-            for (int j = 0; j < seguratas.size()-1; j++)
+            for (int j = 0; j < seguratas.size() - 1; j++)
             {
-                if (seguratas[j].score < seguratas[j + 1].score)
+                if (seguratas[j]->score < seguratas[j + 1]->score)
                 {
-                    InfoSegurata temp = seguratas[j];
+                    InfoSegurata *temp = nullptr;
+                    temp = seguratas[j];
                     seguratas[j] = seguratas[j + 1];
                     seguratas[j + 1] = temp;
                 }
@@ -74,9 +75,9 @@ public:
     }
     void PrintSeguratas()
     {
-        for (InfoSegurata segurata : seguratas)
+        for (InfoSegurata* segurata : seguratas)
         {
-            cout << segurata.name << ": " << segurata.score << endl;
+            cout << segurata->name << ": " << segurata->score << endl;
         }
     }
 };

@@ -1,0 +1,27 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "X:/CARRERA/5_CARRERA/PEL/Entrega_Final/Situacion4/build/CMakeFiles/3.21.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "X:/CARRERA/5_CARRERA/PEL/Entrega_Final/Situacion4/build/CMakeFiles/3.21.3/CompilerIdCXX/a.exe"
+

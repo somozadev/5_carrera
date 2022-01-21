@@ -1,0 +1,4 @@
+
+
+    cout << ruso.GetVector().size();
+}
